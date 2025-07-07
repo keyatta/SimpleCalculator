@@ -73,3 +73,8 @@ while !validSecond {
         print("That is not a valid number. Please try again.")
     }
 }
+
+// Calculate
+
+let result = calculator(first, second, operationSymbol)
+print("Result: \(result)")
